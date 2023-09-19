@@ -274,8 +274,6 @@ li:nth-child(1) {
   flex-direction: column;
   align-items: center;
   list-style: none;
-  
-  
 }
 
 .footer__social-list {
@@ -283,7 +281,6 @@ li:nth-child(1) {
   justify-content: space-between;
   list-style: none;
   gap: 48px;
-  
 }
 
 .footer__social-icon {
