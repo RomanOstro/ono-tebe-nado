@@ -233,6 +233,7 @@ li:nth-child(1) {
 
 .about__logo-image {
   width: 148px;
+  height: 100%;
 }
 
 .about__title {
