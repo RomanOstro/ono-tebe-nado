@@ -29,6 +29,7 @@ li:nth-child(1) {
 
 .header__link_active {
   text-decoration: none;
+  
 }
 .header__link {
   text-underline-offset: 4px;
@@ -41,12 +42,7 @@ li:nth-child(1) {
   text-underline-offset: 4px;
 }
 
-.address__tel {
-  display: block;
-  width: max-content;
-}
-
-.address__mail {
+.address__link {
   display: block;
   width: max-content;
 }
@@ -78,6 +74,7 @@ li:nth-child(1) {
   font-weight: 700;
   letter-spacing: 30px;
   text-transform: uppercase;
+  
 }
 
 .aligned-text {
@@ -133,6 +130,7 @@ li:nth-child(1) {
 .bet-button:hover {
   color: #fdef94;
   border: 1px solid #fdef94;
+  cursor:pointer;
 }
 
 .overlay {
@@ -196,6 +194,8 @@ li:nth-child(1) {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .card__text {
